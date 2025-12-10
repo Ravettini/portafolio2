@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portafolio Personal - Ignacio Ravettini Novellino
 
-## Getting Started
+Portafolio web personal desarrollado con React, TypeScript, Vite y TailwindCSS, con una estética moderna AERO/glassmorphism.
 
-First, run the development server:
+## 🚀 Tecnologías
+
+- **React 18** - Biblioteca de UI
+- **TypeScript** - Tipado estático
+- **Vite** - Build tool y dev server
+- **TailwindCSS** - Framework de estilos
+- **Dark Mode** - Modo oscuro por defecto
+
+## 📦 Instalación
+
+```bash
+npm install
+```
+
+## 🏃 Ejecutar en desarrollo
+
+```bash
+npm start
+```
+
+O alternativamente:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🏗️ Build para producción
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Estructura del proyecto
 
-## Learn More
+```
+portafolio/
+├── src/
+│   ├── components/
+│   │   ├── Navbar.tsx
+│   │   ├── Hero.tsx
+│   │   ├── About.tsx
+│   │   ├── Skills.tsx
+│   │   ├── Experience.tsx
+│   │   ├── Education.tsx
+│   │   ├── Projects.tsx
+│   │   ├── Contact.tsx
+│   │   └── Footer.tsx
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+├── index.html
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── tailwind.config.js
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 🎨 Características
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- ✅ Diseño responsive (mobile, tablet, desktop)
+- ✅ Navbar sticky con scroll suave
+- ✅ Estética AERO/glassmorphism
+- ✅ Animaciones y transiciones suaves
+- ✅ Formulario de contacto con validación
+- ✅ Accesibilidad mejorada
+- ✅ Dark mode por defecto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📝 Secciones
 
-## Deploy on Vercel
+1. **Hero** - Presentación principal
+2. **Sobre mí** - Información personal y profesional
+3. **Habilidades** - Tecnologías y herramientas
+4. **Experiencia** - Timeline de experiencia laboral
+5. **Educación** - Formación académica
+6. **Proyectos** - Portfolio de proyectos (estructura preparada)
+7. **Contacto** - Formulario y formas de contacto
+8. **Footer** - Información de copyright
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎯 Próximos pasos
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Agregar proyectos reales
+- Implementar backend para formulario de contacto
+- Agregar más animaciones al scroll
+- Optimizar imágenes y assets
+
